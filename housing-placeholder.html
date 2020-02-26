@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Page Meta -->
-    <title>Theo in Hong Kong and Stuff</title>
+    <title>Housing Placeholder</title>
     <meta name="description" content="A smorgasbord of psuedo-scientific observations about Hong Kong, clickbate headlines, and the thing the internet most needs: another food blog." />
 
     <!-- Mobile Meta -->
@@ -26,31 +26,31 @@
     <style>.hljs { background: none; }</style>
 
     <!-- Ghost outputs important style and meta data with this tag -->
-        <link rel="canonical" href="http://localhost:4000/tag/protests/" />
+        <link rel="canonical" href="http://localhost:4000/housing-placeholder" />
     <meta name="referrer" content="origin" />
     <link rel="next" href="page2/" />
 
     <meta property="og:site_name" content="Theo in Hong Kong and Stuff" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Theo in Hong Kong and Stuff" />
+    <meta property="og:title" content="Housing Placeholder" />
     <meta property="og:description" content="A smorgasbord of psuedo-scientific observations about Hong Kong, clickbate headlines, and the thing the internet most needs: another food blog." />
-    <meta property="og:url" content="http://localhost:4000/tag/protests/" />
-    <meta property="og:image" content="assets/images/cover2.jpg" />
+    <meta property="og:url" content="http://localhost:4000/housing-placeholder" />
+    <meta property="og:image" content="assets/images/housing-cover.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Theo in Hong Kong and Stuff" />
+    <meta name="twitter:title" content="Housing Placeholder" />
     <meta name="twitter:description" content="A smorgasbord of psuedo-scientific observations about Hong Kong, clickbate headlines, and the thing the internet most needs: another food blog." />
-    <meta name="twitter:url" content="http://localhost:4000/tag/protests/" />
-    <meta name="twitter:image:src" content="assets/images/cover2.jpg" />
+    <meta name="twitter:url" content="http://localhost:4000/housing-placeholder" />
+    <meta name="twitter:image:src" content="assets/images/housing-cover.jpg" />
 
     <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "Website",
     "publisher": "Theo in Hong Kong and Stuff",
-    "name": "Theo in Hong Kong and Stuff",
-    "url": "http://localhost:4000/tag/protests/",
-    "image": "assets/images/cover2.jpg",
+    "name": "Housing Placeholder",
+    "url": "http://localhost:4000/housing-placeholder",
+    "image": "assets/images/housing-cover.jpg",
     "description": "A smorgasbord of psuedo-scientific observations about Hong Kong, clickbate headlines, and the thing the internet most needs: another food blog."
 }
     </script>
@@ -60,7 +60,7 @@
 
 
 </head>
-<body class="tag-template nav-closed">
+<body class="home-template nav-closed">
 
     <!-- The blog navigation links -->
     <div class="nav">
@@ -71,8 +71,8 @@
     <ul>
         <li class="nav-home " role="presentation"><a href="">Home</a></li>
         <li class="nav-about " role="presentation"><a href="about">About</a></li>
-        <li class="nav-housing " role="presentation"><a href="tag/housing">Housing</a></li>
-        <li class="nav-protests  nav-current" role="presentation"><a href="tag/protests">Protests</a></li>
+        <li class="nav-housing  nav-current" role="presentation"><a href="tag/housing">Housing</a></li>
+        <li class="nav-protests " role="presentation"><a href="tag/protests">Protests</a></li>
         <li class="nav-what-the-rock-is-cooking " role="presentation"><a href="tag/what-the-rock-is-cooking">Food</a></li>
         <li class="nav-miscellaneous " role="presentation"><a href="tag/miscellaneous">Miscellaneous</a></li>
 
@@ -85,63 +85,33 @@
     <div class="site-wrapper">
 
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- dynamically overriding backgrounds for tags as well as descriptions -->
+        <!-- default -->
 
+<!-- The comment above "< default" means - insert everything in this file into -->
+    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
 
-<!-- default -->
-<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
 
-<!-- If we have a tag cover, display that - else blog cover - else nothing -->
-<header class="main-header tag-head " style="background-image: url(assets/images/shueng-shui.jpg) ">
-    <nav class="main-nav overlay clearfix">
+<header class="main-header post-head " style="background-image: url(assets/images/housing-cover.jpg) ">
+    <nav class="main-nav  overlay  clearfix">
         <a class="blog-logo" href=""><img src="assets/images/favicon.ico" alt="Blog Logo" /></a>
         
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         
     </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-          
-            <h1 class="page-title">Protests</h1>
-            <h2 class="page-description">
-          
-
-
-
-            
-                Ongoing non-journalistic coverage of the sitation in HK
-            
-            </h2>
-        </div>
-    </div>
 </header>
 
-<!-- The main content area on the homepage -->
-<main id="content" class="content" role="main">
+<main class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
-        <!-- Previous/next page links - only displayed on page 2+ -->
-    <div class="extra-pagination inner">
-        
-            <nav class="pagination" role="pagination">
-    
-    <span class="page-number"> Page 1 of 1 </span>
-     
-</nav>
-        
-    </div>
+    <article class="post tag-housing">
 
-    <!-- This is the post loop - each post will be output using this markup -->
-    
-    <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="what-people-are-saying-about-the-protests-part-1">What People are Saying about the Protests Part I</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>This is the first part in an ongoing series of posts excerpting different perspectives I encounter on the protests in Hong Kong. This is in no... <a class="read-more" href="what-people-are-saying-about-the-protests-part-1">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            
+            <h1 class="post-title">Housing Placeholder</h1>
+            <section class="post-meta">
+            <!-- <a href=''></a> -->
+
+            <!-- 
                 
             
                 
@@ -152,55 +122,117 @@
             
                 
             
+                
+                    <a href='author/Theo'>Theo Lebryk</a>
+                
+             -->
+            <time class="post-date" datetime="2019-09-10">10 Sep 2019</time>
+                <!-- [[tags prefix=" on "]] -->
+                
+                on
                 
 
-                <!-- <img class="author-thumb" src="assets/images/martin.jpg" alt="Author image" nopin="nopin" /> -->
-                <!-- author -->
-                <!-- <a href='author/Theo'>Theo Lebryk</a> -->
 
-                
-            
 
-            <!-- [[tags prefix=" on "]] -->
-            
-                <!-- on -->
-                
                     
-                        
-                          <a href='tag/protests'>Protests</a>,
-                        
-                    
-                
-                    
-                        
-                          <a href='tag/miscellaneous'>Miscellaneous</a>,
-                        
-                    
-                
-                    
-                        
+                          
                               <a href='tag/housing'>Housing</a>
-                        
-                       <!-- <a href='tag/housing'>Housing</a> -->
+                          
                     
                 
+                
+            </section>
+        </header>
+
+        <section class="post-content">
+
+            <p>A placeholder for housing related stuff going on in my life.
+<!-- /wp:quote --></p>
+
+
+        </section>
+
+        <footer class="post-footer">
+
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
+            <!-- 
+                
             
-            <time class="post-date" datetime="2019-10-15">15 Oct 2019</time>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    
+                        <figure class="author-image">
+                            <a class="img" href="author/Theo" style="background-image: url(assets/images/martin.jpg)"><span class="hidden">Theo's Picture</span></a>
+                        </figure>
+                    
+
+                    <section class="author">
+                        <h4><a href="author/Theo">Theo Lebryk</a></h4>
+
+                        
+                            <p> It's me!</p>
+                        
+                        <div class="author-meta">
+                            <span class="author-location icon-location"> Hong Kong</span>
+                            <span class="author-link icon-link"><a href="http://tlebryk.github.io/theo-in-hk/"> tlebryk.github.io/theo-in-hk</a></span>
+                        </div>
+                    </section> -->
+
+                    <!-- /author  -->
+
+                    <section class="share">
+                        <h4>Share this post</h4>
+                        <a class="icon-twitter" href="http://twitter.com/share?text=Housing Placeholder&amp;url=http://localhost:4000housing-placeholder"
+                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <span class="hidden">Twitter</span>
+                        </a>
+                        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000housing-placeholder"
+                            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                            <span class="hidden">Facebook</span>
+                        </a>
+                        <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:4000housing-placeholder"
+                           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                            <span class="hidden">Google+</span>
+                        </a>
+                    </section>
+                
+            
+
+            <!-- Add Disqus Comments -->
+            
+
         </footer>
+
     </article>
-    
-
-    <!-- Previous/next page links - displayed on every page -->
-    
-        <nav class="pagination" role="pagination">
-    
-    <span class="page-number"> Page 1 of 1 </span>
-     
-</nav>
-    
-
 
 </main>
+
+<aside class="read-next">
+
+    <!-- [[! next_post ]] -->
+    
+        <a class="read-next-story " style="background-image: url(assets/images/5-demands.jpg)" href="what-people-are-saying-about-the-protests-part-1">
+            <section class="post">
+                <h2>What People are Saying about the Protests Part I</h2>
+                <p>This is the first part in an ongoing series of posts excerpting different perspectives I...</p>
+            </section>
+        </a>
+    
+    <!-- [[! /next_post ]] -->
+    <!-- [[! prev_post ]] -->
+    
+    <!-- [[! /prev_post ]] -->
+</aside>
+
+<!-- /post -->
 
 
         <!-- The tiny footer at the very bottom -->

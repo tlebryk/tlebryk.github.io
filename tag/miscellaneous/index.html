@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Page Meta -->
-    <title>Author</title>
+    <title>Theo in Hong Kong and Stuff</title>
     <meta name="description" content="A smorgasbord of psuedo-scientific observations about Hong Kong, clickbate headlines, and the thing the internet most needs: another food blog." />
 
     <!-- Mobile Meta -->
@@ -26,31 +26,31 @@
     <style>.hljs { background: none; }</style>
 
     <!-- Ghost outputs important style and meta data with this tag -->
-        <link rel="canonical" href="http://localhost:4000/author/Theo/" />
+        <link rel="canonical" href="http://localhost:4000/tag/miscellaneous/" />
     <meta name="referrer" content="origin" />
     <link rel="next" href="page2/" />
 
     <meta property="og:site_name" content="Theo in Hong Kong and Stuff" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Author" />
+    <meta property="og:title" content="Theo in Hong Kong and Stuff" />
     <meta property="og:description" content="A smorgasbord of psuedo-scientific observations about Hong Kong, clickbate headlines, and the thing the internet most needs: another food blog." />
-    <meta property="og:url" content="http://localhost:4000/author/Theo/" />
-    <meta property="og:image" content="assets/images/cover4.jpg" />
+    <meta property="og:url" content="http://localhost:4000/tag/miscellaneous/" />
+    <meta property="og:image" content="assets/images/cover2.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Author" />
+    <meta name="twitter:title" content="Theo in Hong Kong and Stuff" />
     <meta name="twitter:description" content="A smorgasbord of psuedo-scientific observations about Hong Kong, clickbate headlines, and the thing the internet most needs: another food blog." />
-    <meta name="twitter:url" content="http://localhost:4000/author/Theo/" />
-    <meta name="twitter:image:src" content="assets/images/cover4.jpg" />
+    <meta name="twitter:url" content="http://localhost:4000/tag/miscellaneous/" />
+    <meta name="twitter:image:src" content="assets/images/cover2.jpg" />
 
     <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "Website",
     "publisher": "Theo in Hong Kong and Stuff",
-    "name": "Author",
-    "url": "http://localhost:4000/author/Theo/",
-    "image": "assets/images/cover4.jpg",
+    "name": "Theo in Hong Kong and Stuff",
+    "url": "http://localhost:4000/tag/miscellaneous/",
+    "image": "assets/images/cover2.jpg",
     "description": "A smorgasbord of psuedo-scientific observations about Hong Kong, clickbate headlines, and the thing the internet most needs: another food blog."
 }
     </script>
@@ -60,7 +60,7 @@
 
 
 </head>
-<body class="author-template nav-closed">
+<body class="tag-template nav-closed">
 
     <!-- The blog navigation links -->
     <div class="nav">
@@ -74,7 +74,7 @@
         <li class="nav-housing " role="presentation"><a href="tag/housing">Housing</a></li>
         <li class="nav-protests " role="presentation"><a href="tag/protests">Protests</a></li>
         <li class="nav-what-the-rock-is-cooking " role="presentation"><a href="tag/what-the-rock-is-cooking">Food</a></li>
-        <li class="nav-miscellaneous " role="presentation"><a href="tag/miscellaneous">Miscellaneous</a></li>
+        <li class="nav-miscellaneous  nav-current" role="presentation"><a href="tag/miscellaneous">Miscellaneous</a></li>
 
     </ul>
     <!-- <a class="subscribe-button icon-feed" href="feed.xml">Subscribe</a> -->
@@ -85,70 +85,49 @@
     <div class="site-wrapper">
 
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- < default}} -->
+        <!-- dynamically overriding backgrounds for tags as well as descriptions -->
+
+
+<!-- default -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header -->
+<!-- If we have a tag cover, display that - else blog cover - else nothing -->
+<header class="main-header tag-head " style="background-image: url(assets/images/cover2.jpg) ">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href=""><img src="assets/images/favicon.ico" alt="Blog Logo" /></a>
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+          
+            <h1 class="page-title">Miscellaneous</h1>
+            <h2 class="page-description">
+          
 
-<!-- Everything inside the #author tags pulls data from the author -->
-<!-- #author  -->
-    <header class="main-header author-head " style="background-image: url(assets/images/cover4.jpg) ">
-        <nav class="main-nav overlay clearfix">
-            <a class="blog-logo" href=""><img src="assets/images/favicon.ico" alt="Blog Logo" /></a>
-            
-                <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-            
-        </nav>
-    </header>
 
-    <section class="author-profile inner">
-        
+
             
-        
+			    A 1-post collection
             
-        
-            
-        
-            
-        
-            
-        
-            
-                
-                <figure class="author-image">
-                    <div class="img" style="background-image: url(assets/images/martin.jpg)"><span class="hidden">Theo Lebryk's Picture</span></div>
-                </figure>
-                
-                <h1 class="author-title">Theo Lebryk</h1>
-                
-                    <div style="display:inline; text-align: justify; text-justify: inter-word;">
-                        <h2 class="author-bio">It's me!</h2>
-                    </div>
-                
-                <div class="author-meta">
-                    <span class="author-location icon-location">Hong Kong</span>
-                    <span class="author-link icon-link"><a href="http://tlebryk.github.io/theo-in-hk/">tlebryk.github.io/theo-in-hk</a></span>
-                    <!-- <span class="author-stats"><i class="icon-stats"></i> [[plural ../pagination.total empty='No posts' singular='% post' plural='% posts']]</span> -->
-                    <span class="author-stats"><i class="icon-stats"></i>3 posts</span>
-                </div>
-            
-        
-    </section>
-<!-- /author -->
+            </h2>
+        </div>
+    </div>
+</header>
 
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs  -->
+    <!-- The tag below includes the post loop - partials/loop.hbs -->
         <!-- Previous/next page links - only displayed on page 2+ -->
     <div class="extra-pagination inner">
         
             <nav class="pagination" role="pagination">
     
     <span class="page-number"> Page 1 of 1 </span>
-    
+     
 </nav>
-
         
     </div>
 
@@ -210,105 +189,14 @@
         </footer>
     </article>
     
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="fermented-black-bean-pumpkin">Fermented Black Bean Pumpkin</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>This is probably my favorite recipe to make, in part because it was the first thing I learned from my original sifu. Also in part because... <a class="read-more" href="fermented-black-bean-pumpkin">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-
-                <!-- <img class="author-thumb" src="assets/images/martin.jpg" alt="Author image" nopin="nopin" /> -->
-                <!-- author -->
-                <!-- <a href='author/Theo'>Theo Lebryk</a> -->
-
-                
-            
-
-            <!-- [[tags prefix=" on "]] -->
-            
-                <!-- on -->
-                
-                    
-                        
-                              <a href='tag/what-the-rock-is-cooking'> Food</a>
-                        
-                       <!-- <a href='tag/what-the-rock-is-cooking'>What-the-rock-is-cooking</a> -->
-                    
-                
-            
-            <time class="post-date" datetime="2019-10-15">15 Oct 2019</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="housing-placeholder">Housing Placeholder</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>A placeholder for housing related stuff going on in my life.
-
- <a class="read-more" href="housing-placeholder">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-
-                <!-- <img class="author-thumb" src="assets/images/martin.jpg" alt="Author image" nopin="nopin" /> -->
-                <!-- author -->
-                <!-- <a href='author/Theo'>Theo Lebryk</a> -->
-
-                
-            
-
-            <!-- [[tags prefix=" on "]] -->
-            
-                <!-- on -->
-                
-                    
-                        
-                              <a href='tag/housing'>Housing</a>
-                        
-                       <!-- <a href='tag/housing'>Housing</a> -->
-                    
-                
-            
-            <time class="post-date" datetime="2019-09-10">10 Sep 2019</time>
-        </footer>
-    </article>
-    
 
     <!-- Previous/next page links - displayed on every page -->
     
         <nav class="pagination" role="pagination">
     
     <span class="page-number"> Page 1 of 1 </span>
-    
+     
 </nav>
-
     
 
 

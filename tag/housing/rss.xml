@@ -59,6 +59,19 @@
 	  ]]></description>
 	</item>
 
+	<item>
+	  <title>Housing Placeholder</title>
+	  <link>/housing-placeholder</link>
+	  <author></author>
+	  <pubDate>2019-09-10T06:18:00-04:00</pubDate>
+	  <guid>/housing-placeholder</guid>
+	  <description><![CDATA[
+	     <p>A placeholder for housing related stuff going on in my life.
+<!-- /wp:quote --></p>
+
+	  ]]></description>
+	</item>
+
 
 </channel>
 </rss>
