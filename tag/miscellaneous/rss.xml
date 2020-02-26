@@ -3,7 +3,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
    
-      <title>tlebryk.github.io/theo-in-hk/</title>
+      <title>tlebryk.github.io</title>
    
    <link>http://localhost:4000</link>
    <description>A smorgasbord of psuedo-scientific observations about Hong Kong, clickbate headlines, and the thing the internet most needs: another food blog.</description>
@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>What People are Saying about the Protests Part I</title>
-	  <link>/what-people-are-saying-about-the-protests-part-1</link>
+	  <link>//what-people-are-saying-about-the-protests-part-1</link>
 	  <author></author>
 	  <pubDate>2019-10-15T06:18:00-04:00</pubDate>
-	  <guid>/what-people-are-saying-about-the-protests-part-1</guid>
+	  <guid>//what-people-are-saying-about-the-protests-part-1</guid>
 	  <description><![CDATA[
 	     <p>This is the first part in an ongoing series of posts excerpting different perspectives I encounter on the protests in Hong Kong. This is in no way a representative sample of Hong Kong, nor should these people be thought to speak for everyone in their demographic. However, hopefully this gives some color, and alternative perspectives, to what the media is publishing about the protests.</p>
 
