@@ -2,7 +2,7 @@
 layout: post
 cover: 'assets/images/pumpkin.jpg'
 navigation: True
-title: Fermented Black Bean Pumpkin
+title: Fermented Black Bean Pumpkin (豆豉南瓜？)
 date: 2019-10-15 10:18:00
 tags: what-the-rock-is-cooking
 subclass: 'post tag-what-the-rock-is-cooking'
@@ -20,7 +20,7 @@ This goes for basically everything I make: the spice ratio is pretty unscientifi
 
 
 Ingredients:
-* 4 tablespoons douchi black bean paste (豆豉）
+* 4 tablespoons douchi black beans (豆豉）
 * 3 cloves garlic
 * 1 Kabocha pumpkin 
 * Cooking Oil 

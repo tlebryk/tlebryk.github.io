@@ -10,11 +10,11 @@ language: 'en-uk'
 name: "Theo in Hong Kong and Stuff"
 description: "A smorgasbord of psuedo-scientific observations about Hong Kong, clickbate headlines, and the thing the internet most needs: another food blog."
 
-short_url: 'tlebryk.github.io/theo-in-hk/'
+short_url: 'tlebryk.github.io'
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: ''
+baseurl: '/'
 
 # Permalinks
 permalink: /:title

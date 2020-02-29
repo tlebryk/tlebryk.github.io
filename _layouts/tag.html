@@ -1,21 +1,21 @@
 ---
 layout: default
-cover: 'assets/images/cover2.jpg'
+cover: '../../assets/images/cover2.jpg'
 class: 'tag-template'
 navigation: True
-logo: 'assets/images/favicon.ico'
+logo: '../../assets/images/favicon.ico'
 current: tag
 ---
 
 <!-- dynamically overriding backgrounds for tags as well as descriptions -->
 {% if page.url contains 'housing' %}
-    {% assign new_cover='assets/images/housing-cover.jpg' %}
+    {% assign new_cover='../../assets/images/housing-cover.jpg' %}
     {% assign tag_description='Currently under construction.' %}
 {% elsif page.url contains 'what-the-rock-is-cooking' %}
-    {% assign new_cover='assets/images/sticky-rice1.jpg' %}
+    {% assign new_cover='../../assets/images/sticky-rice1.jpg' %}
     {% assign tag_description="Some recipes I've been learning from Hong Kong people or Chinese youtube." %}
 {% elsif page.url contains 'protests' %}
-    {% assign new_cover='assets/images/shueng-shui.jpg' %}
+    {% assign new_cover='.../../assets/images/shueng-shui.JPG' %}
     {% assign tag_description='Ongoing non-journalistic coverage of the sitation in HK' %}
 {% endif %}
 
