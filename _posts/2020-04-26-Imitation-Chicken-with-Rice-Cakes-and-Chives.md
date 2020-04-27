@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/rice-cake.JPG'
 navigation: True
 title: Imitation Chicken with Rice Cakes and Chives
-date: 2020--4-26 10:18:00
+date: 2020-4-26 10:18:00
 tags: what-the-rock-is-cooking
 subclass: 'post tag-what-the-rock-is-cooking'
 logo: 'assets/images/favicon.ico'
