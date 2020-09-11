@@ -1,0 +1,17 @@
+<div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}">Home</a></li>
+        <li class="nav-about {% if page.current == 'about' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}about">About</a></li>
+        <li class="nav-housing {% if page.url contains 'housing' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/housing">Housing</a></li>
+        <li class="nav-protests {% if page.url contains 'protests' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/protests">Protests</a></li>
+        <li class="nav-what-the-rock-is-cooking {% if page.url contains 'what-the-rock-is-cooking' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/what-the-rock-is-cooking">Food</a></li>
+        <li class="nav-miscellaneous {% if page.url contains 'miscellaneous' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/miscellaneous">Miscellaneous</a></li>
+
+    </ul>
+    <!-- <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a> -->
+</div>
+<span class="nav-cover"></span>
