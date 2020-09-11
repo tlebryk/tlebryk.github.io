@@ -1,4 +1,4 @@
-## theo-in-hk
+## My Hong Kong Blog
 
 [![Build Status](https://travis-ci.org/tlebryk/theo-in-hk.svg?branch=master)](https://travis-ci.org/tlebryk/theo-in-hk)
 [![Ruby](https://img.shields.io/badge/ruby-2.5.2-blue.svg?style=flat)](http://travis-ci.org/tlebryk/theo-in-hk)
