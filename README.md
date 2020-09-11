@@ -4,7 +4,7 @@
 [![Ruby](https://img.shields.io/badge/ruby-2.5.2-blue.svg?style=flat)](http://travis-ci.org/tlebryk/theo-in-hk)
 [![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/tlebryk/theo-in-hk)
 
-
+Original template from: https://github.com/jekyller/jasper
 
 ## Copyright & License
 
